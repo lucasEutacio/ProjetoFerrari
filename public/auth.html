@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ferrari</title/>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png"/>
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="msapplication-TileColor" content="#E1DEDD"/>
+    <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#E1DEDD"/>
+    <meta name="description" content="conheça a Ferrari auto center" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body >
+
+    <main id="auth">
+
+        <section>
+
+            <a href="index.html"><img src="assets/images/ferrari-logo.svg" alt="logo ferrari"></a>
+
+            <form action="" class="" id="auth-email">
+
+                <h1>Autenticação</h1>
+                <hr>
+
+                <div class="field">
+                    <input type="email" name="email" id="email" />
+                    <label for="email">E-mail</label>
+                </div>
+
+                <div class="actions">
+                    <a href="auth.html#register" class="link">Criar uma conta</a>
+                    <button type="submit">Proxima</button>
+                </div>
+
+            </form>
+
+            <form action="" id="login" class="hide">
+
+                <h1>Fazer login </h1>
+                <hr>
+
+                <div class="field">
+                    <input type="email" name="email" id="email-login" readonly value=""/>
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="field">
+                    
+                <input type="password" name="password" id="password" />
+                <label for="password">Digite sua senha</label>
+
+                </div>
+                <div class="actions">
+                <div>
+                    <a href="auth.html#register" class="link">Esqueceu sua senha ? </a>
+                    <a href="auth.html#register" class="link">Não é sua conta ?</a>
+                </div>
+                    <button type="submit">Login</button>
+                </div>
+
+            </form>
+
+            <form action="" id="register" class="hide">
+
+                <h1>Criar a conta </h1>
+                <hr>
+
+                <div class="field">
+                    <input type="email" name="email" id="email-login" readonly value="lucaseutacio213@gmail.com"/>
+                    <label for="email">E-mail</label>
+                </div>
+
+
+                <div class="field">  
+                    <input type="text" name="name" id="name" />
+                    <label for="name">Nome Completo</label>
+                </div>
+
+                
+                <div class="field">  
+                    <input type="date" name="birth_at" id="birth_at" />
+                    <label for="birth_at">Data de Nascimento</label>
+                </div>
+
+                
+                <div class="field">  
+                    <input type="password" name="password" id="password-new" />
+                    <label for="password-new">Criar uma Senha</label>
+                </div>
+
+                
+                <div class="field">  
+                    <input type="password" name="password" id="password-confirm" />
+                    <label for="password-confirm">Confirme a Senha</label>
+                </div>
+
+
+
+
+                <div class="actions">
+                    <a href="auth.html#login" class="link">Já tem uma conta?</a>
+                    <button type="submit">cadastrar</button>
+                </div>
+
+            </form>
+
+
+            <form action="" id="forget" class="hide">
+
+                <h1>Esquecia a senha </h1>
+                <hr>
+
+                <div class="loading-wrap">
+                    <div class="loading">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        
+                        
+                    </div>
+                    <p>por favor, aguarde...</p>
+                </div>
+          
+                <div class="message ">
+
+                    <img src="assets/images/check-circle.svg" alt="ok">
+                    <span>Verifique as instruções no seu E-mail</span>
+                </div>
+
+            </form>
+
+            <form action="" id="reset" class="hide">
+
+                <h1>Redefinir senha</h1>
+                <hr>
+
+                <div class="field">
+                    <input type="password" name="password" id="password-reset" />
+                    <label for="password-reset">Crie uma Nova Senha</label>
+                </div>
+
+                <div class="actions">
+                    <a href="auth.html#reset" class="link">	&nbsp;</a>
+                    <button type="submit">redefinir</button>
+                </div>
+
+            </form>
+
+            <p>2024 © inoveweb. All rights reserved.</p>
+
+        </section>
+
+
+    </main>
+    <script src="budle.js"></script>
+
+</body>
+</html>
